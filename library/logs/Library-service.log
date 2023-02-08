@@ -1,0 +1,1018 @@
+2023-02-07T10:33:27.339+05:30  INFO 18268 --- [restartedMain] c.l.library.LibraryApplication           : Starting LibraryApplication using Java 17.0.4.1 with PID 18268 (C:\Library Application\library (1)\library\target\classes started by ssaathvi in C:\Library Application\library (1)\library)
+2023-02-07T10:33:27.343+05:30  INFO 18268 --- [restartedMain] c.l.library.LibraryApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-02-07T10:33:27.411+05:30  INFO 18268 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\ssaathvi\.m2\repository\org\apache\derby\derby\10.16.1.1\derby-10.16.1.1.jar referenced one or more files that do not exist: file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyshared.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_cs.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_de_DE.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_es.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_fr.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_hu.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_it.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_ja_JP.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_ko_KR.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_pl.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_pt_BR.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_ru.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_zh_CN.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_zh_TW.jar
+2023-02-07T10:33:27.412+05:30  INFO 18268 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\ssaathvi\.m2\repository\org\apache\derby\derbyshared\10.16.1.1\derbyshared-10.16.1.1.jar referenced one or more files that do not exist: file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyshared.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_cs.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_de_DE.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_es.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_fr.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_hu.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_it.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_ja_JP.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_ko_KR.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_pl.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_pt_BR.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_ru.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_zh_CN.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_zh_TW.jar
+2023-02-07T10:33:27.413+05:30  INFO 18268 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-07T10:33:27.413+05:30  INFO 18268 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-07T10:33:28.434+05:30  INFO 18268 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-02-07T10:33:28.635+05:30  INFO 18268 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 195 ms. Found 1 MongoDB repository interfaces.
+2023-02-07T10:33:29.020+05:30  INFO 18268 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ca0d3827-b5e2-3420-9f8d-666be44c3904
+2023-02-07T10:33:29.772+05:30  INFO 18268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8092 (http)
+2023-02-07T10:33:29.793+05:30  INFO 18268 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-07T10:33:29.794+05:30  INFO 18268 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-07T10:33:29.896+05:30  INFO 18268 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-07T10:33:29.897+05:30  INFO 18268 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2482 ms
+2023-02-07T10:33:30.309+05:30  INFO 18268 --- [restartedMain] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.8.2"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Amazon.com Inc./17.0.4.1+9-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=majority, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='Saathvik', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@5a7ee49d]}, clusterSettings={hosts=[127.0.0.1:27017], srvHost=cluster0.icbwgww.mongodb.net, srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='atlas-504cpv-shard-0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=true, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-02-07T10:33:30.346+05:30  INFO 18268 --- [cluster-ClusterId{value='63e1dba279b59c5d4c7c25a1', description='null'}-srv-cluster0.icbwgww.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017 to client view of cluster
+2023-02-07T10:33:30.382+05:30  INFO 18268 --- [cluster-ClusterId{value='63e1dba279b59c5d4c7c25a1', description='null'}-srv-cluster0.icbwgww.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017 to client view of cluster
+2023-02-07T10:33:30.384+05:30  INFO 18268 --- [cluster-ClusterId{value='63e1dba279b59c5d4c7c25a1', description='null'}-srv-cluster0.icbwgww.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017 to client view of cluster
+2023-02-07T10:33:30.710+05:30  INFO 18268 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-07T10:33:31.697+05:30  INFO 18268 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-02-07T10:33:31.910+05:30  WARN 18268 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-07T10:33:31.906+05:30  INFO 18268 --- [cluster-ClusterId{value='63e1dba279b59c5d4c7c25a1', description='null'}-ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:705) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:340) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:104) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:48) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:134) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.startHandshake(InternalStreamConnectionInitializer.java:76) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:185) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketException: Socket is closed
+	at java.base/java.net.Socket.setSoTimeout(Socket.java:1218) ~[na:na]
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.setSoTimeout(BaseSSLSocketImpl.java:638) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.setSoTimeout(SSLSocketImpl.java:74) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:140) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 10 common frames omitted
+
+2023-02-07T10:33:31.946+05:30  INFO 18268 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-02-07T10:33:32.039+05:30  INFO 18268 --- [cluster-ClusterId{value='63e1dba279b59c5d4c7c25a1', description='null'}-ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:115) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:138) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:340) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:104) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:48) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:134) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.startHandshake(InternalStreamConnectionInitializer.java:76) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:185) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-02-07T10:33:32.050+05:30  INFO 18268 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-02-07T10:33:32.059+05:30  INFO 18268 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T10:33:32.092+05:30  INFO 18268 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-02-07T10:33:32.093+05:30  INFO 18268 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-02-07T10:33:32.094+05:30  INFO 18268 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-02-07T10:33:32.094+05:30  INFO 18268 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-02-07T10:33:32.094+05:30  INFO 18268 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-02-07T10:33:32.094+05:30  INFO 18268 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-02-07T10:33:32.095+05:30  INFO 18268 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-02-07T10:33:32.245+05:30  INFO 18268 --- [cluster-ClusterId{value='63e1dba279b59c5d4c7c25a1', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:705) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:340) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:104) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:48) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:134) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.startHandshake(InternalStreamConnectionInitializer.java:76) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:185) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketException: Socket is closed
+	at java.base/java.net.Socket.setSoTimeout(Socket.java:1218) ~[na:na]
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.setSoTimeout(BaseSSLSocketImpl.java:638) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.setSoTimeout(SSLSocketImpl.java:74) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:140) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 10 common frames omitted
+
+2023-02-07T10:33:32.866+05:30  INFO 18268 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-02-07T10:33:32.869+05:30  INFO 18268 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-02-07T10:33:32.874+05:30  INFO 18268 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-02-07T10:33:32.883+05:30  INFO 18268 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1675746212881 with initial instances count: 0
+2023-02-07T10:33:32.887+05:30  INFO 18268 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application LIBRARY-MANAGEMENT-SERVICE with eureka with status UP
+2023-02-07T10:33:32.888+05:30  INFO 18268 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1675746212888, current=UP, previous=STARTING]
+2023-02-07T10:33:32.891+05:30  INFO 18268 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LIBRARY-MANAGEMENT-SERVICE/inlen8520081760.corp.capgemini.com:Library-management-service:8092: registering service...
+2023-02-07T10:33:32.922+05:30  INFO 18268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8092 (http) with context path ''
+2023-02-07T10:33:32.923+05:30  INFO 18268 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8092
+2023-02-07T10:33:33.047+05:30  INFO 18268 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LIBRARY-MANAGEMENT-SERVICE/inlen8520081760.corp.capgemini.com:Library-management-service:8092 - registration status: 204
+2023-02-07T10:33:33.097+05:30  INFO 18268 --- [restartedMain] c.l.library.LibraryApplication           : Started LibraryApplication in 6.588 seconds (process running for 7.398)
+2023-02-07T10:33:54.060+05:30  INFO 18268 --- [cluster-ClusterId{value='63e1dba279b59c5d4c7c25a1', description='null'}-ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:115) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:138) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:340) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:104) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:48) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:134) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.startHandshake(InternalStreamConnectionInitializer.java:76) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:185) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-02-07T10:33:54.574+05:30  INFO 18268 --- [cluster-ClusterId{value='63e1dba279b59c5d4c7c25a1', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:115) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:138) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:340) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:104) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:48) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:134) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.startHandshake(InternalStreamConnectionInitializer.java:76) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:185) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-02-07T10:34:02.879+05:30  INFO 18268 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-02-07T10:34:02.880+05:30  INFO 18268 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-02-07T10:34:02.880+05:30  INFO 18268 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-02-07T10:34:02.881+05:30  INFO 18268 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-02-07T10:34:02.881+05:30  INFO 18268 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-02-07T10:34:02.882+05:30  INFO 18268 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2023-02-07T10:34:02.882+05:30  INFO 18268 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-02-07T10:34:02.904+05:30  INFO 18268 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-02-07T10:34:05.178+05:30  INFO 18268 --- [cluster-ClusterId{value='63e1dba279b59c5d4c7c25a1', description='null'}-ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:705) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:340) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:104) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:48) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:134) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.startHandshake(InternalStreamConnectionInitializer.java:76) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:185) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketException: Socket is closed
+	at java.base/java.net.Socket.setSoTimeout(Socket.java:1218) ~[na:na]
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.setSoTimeout(BaseSSLSocketImpl.java:638) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.setSoTimeout(SSLSocketImpl.java:74) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:140) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 10 common frames omitted
+
+2023-02-07T10:34:05.280+05:30  INFO 18268 --- [cluster-ClusterId{value='63e1dba279b59c5d4c7c25a1', description='null'}-ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:705) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:340) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:104) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:48) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:134) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.startHandshake(InternalStreamConnectionInitializer.java:76) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:185) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketException: Socket is closed
+	at java.base/java.net.Socket.setSoTimeout(Socket.java:1218) ~[na:na]
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.setSoTimeout(BaseSSLSocketImpl.java:638) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.setSoTimeout(SSLSocketImpl.java:74) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:140) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 10 common frames omitted
+
+2023-02-07T10:34:05.600+05:30  INFO 18268 --- [cluster-ClusterId{value='63e1dba279b59c5d4c7c25a1', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:705) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:340) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:104) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:48) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:134) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.startHandshake(InternalStreamConnectionInitializer.java:76) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:185) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketException: Socket is closed
+	at java.base/java.net.Socket.setSoTimeout(Socket.java:1218) ~[na:na]
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.setSoTimeout(BaseSSLSocketImpl.java:638) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.setSoTimeout(SSLSocketImpl.java:74) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:140) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 10 common frames omitted
+
+2023-02-07T10:34:16.359+05:30  INFO 18268 --- [cluster-ClusterId{value='63e1dba279b59c5d4c7c25a1', description='null'}-ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:115) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:138) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:340) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:104) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:48) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:134) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.startHandshake(InternalStreamConnectionInitializer.java:76) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:185) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-02-07T10:34:16.659+05:30  INFO 18268 --- [cluster-ClusterId{value='63e1dba279b59c5d4c7c25a1', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:115) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:138) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:340) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:104) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:48) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:134) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.startHandshake(InternalStreamConnectionInitializer.java:76) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:185) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-02-07T10:34:27.314+05:30  INFO 18268 --- [cluster-ClusterId{value='63e1dba279b59c5d4c7c25a1', description='null'}-ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:705) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:340) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:104) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:48) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:134) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.startHandshake(InternalStreamConnectionInitializer.java:76) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:185) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketException: Socket is closed
+	at java.base/java.net.Socket.setSoTimeout(Socket.java:1218) ~[na:na]
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.setSoTimeout(BaseSSLSocketImpl.java:638) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.setSoTimeout(SSLSocketImpl.java:74) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:140) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 10 common frames omitted
+
+2023-02-07T10:34:27.724+05:30  INFO 18268 --- [cluster-ClusterId{value='63e1dba279b59c5d4c7c25a1', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:705) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:340) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:104) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:48) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:134) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.startHandshake(InternalStreamConnectionInitializer.java:76) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:185) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketException: Socket is closed
+	at java.base/java.net.Socket.setSoTimeout(Socket.java:1218) ~[na:na]
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.setSoTimeout(BaseSSLSocketImpl.java:638) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.setSoTimeout(SSLSocketImpl.java:74) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:140) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 10 common frames omitted
+
+2023-02-07T10:34:38.550+05:30  INFO 18268 --- [cluster-ClusterId{value='63e1dba279b59c5d4c7c25a1', description='null'}-ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:115) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:138) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:340) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:104) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:48) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:134) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.startHandshake(InternalStreamConnectionInitializer.java:76) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:185) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-02-07T10:34:38.903+05:30  INFO 18268 --- [cluster-ClusterId{value='63e1dba279b59c5d4c7c25a1', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:115) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:138) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:340) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:104) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:48) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:134) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.startHandshake(InternalStreamConnectionInitializer.java:76) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:185) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-02-07T10:34:49.778+05:30  INFO 18268 --- [cluster-ClusterId{value='63e1dba279b59c5d4c7c25a1', description='null'}-ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:705) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:340) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:104) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:48) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:134) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.startHandshake(InternalStreamConnectionInitializer.java:76) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:185) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketException: Socket is closed
+	at java.base/java.net.Socket.setSoTimeout(Socket.java:1218) ~[na:na]
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.setSoTimeout(BaseSSLSocketImpl.java:638) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.setSoTimeout(SSLSocketImpl.java:74) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:140) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 10 common frames omitted
+
+2023-02-07T10:35:00.685+05:30  INFO 18268 --- [cluster-ClusterId{value='63e1dba279b59c5d4c7c25a1', description='null'}-ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:115) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:138) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:340) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:104) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:48) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:134) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.startHandshake(InternalStreamConnectionInitializer.java:76) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:185) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-02-07T10:35:01.155+05:30  INFO 18268 --- [cluster-ClusterId{value='63e1dba279b59c5d4c7c25a1', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:705) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:340) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:104) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:48) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:134) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.startHandshake(InternalStreamConnectionInitializer.java:76) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:185) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketException: Socket is closed
+	at java.base/java.net.Socket.setSoTimeout(Socket.java:1218) ~[na:na]
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.setSoTimeout(BaseSSLSocketImpl.java:638) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.setSoTimeout(SSLSocketImpl.java:74) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:140) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 10 common frames omitted
+
+2023-02-07T10:35:08.873+05:30  INFO 18268 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application LIBRARY-MANAGEMENT-SERVICE with eureka with status DOWN
+2023-02-07T10:35:08.874+05:30  INFO 18268 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1675746308874, current=DOWN, previous=UP]
+2023-02-07T10:35:08.875+05:30  INFO 18268 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LIBRARY-MANAGEMENT-SERVICE/inlen8520081760.corp.capgemini.com:Library-management-service:8092: registering service...
+2023-02-07T10:35:08.883+05:30  INFO 18268 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LIBRARY-MANAGEMENT-SERVICE/inlen8520081760.corp.capgemini.com:Library-management-service:8092 - registration status: 204
+2023-02-07T10:35:08.909+05:30  INFO 18268 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-02-07T10:35:11.916+05:30  INFO 18268 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-02-07T10:35:11.930+05:30  INFO 18268 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LIBRARY-MANAGEMENT-SERVICE/inlen8520081760.corp.capgemini.com:Library-management-service:8092 - deregister  status: 200
+2023-02-07T10:35:11.956+05:30  INFO 18268 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-02-07T10:35:15.310+05:30  INFO 17464 --- [restartedMain] c.l.library.LibraryApplication           : Starting LibraryApplication using Java 17.0.4.1 with PID 17464 (C:\Library Application\library (1)\library\target\classes started by ssaathvi in C:\Library Application\library (1)\library)
+2023-02-07T10:35:15.313+05:30  INFO 17464 --- [restartedMain] c.l.library.LibraryApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-02-07T10:35:15.370+05:30  INFO 17464 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\ssaathvi\.m2\repository\org\apache\derby\derby\10.16.1.1\derby-10.16.1.1.jar referenced one or more files that do not exist: file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyshared.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_cs.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_de_DE.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_es.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_fr.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_hu.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_it.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_ja_JP.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_ko_KR.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_pl.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_pt_BR.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_ru.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_zh_CN.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derby/10.16.1.1/derbyLocale_zh_TW.jar
+2023-02-07T10:35:15.371+05:30  INFO 17464 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\ssaathvi\.m2\repository\org\apache\derby\derbyshared\10.16.1.1\derbyshared-10.16.1.1.jar referenced one or more files that do not exist: file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyshared.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_cs.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_de_DE.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_es.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_fr.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_hu.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_it.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_ja_JP.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_ko_KR.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_pl.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_pt_BR.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_ru.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_zh_CN.jar,file:/C:/Users/ssaathvi/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyLocale_zh_TW.jar
+2023-02-07T10:35:15.371+05:30  INFO 17464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-07T10:35:15.371+05:30  INFO 17464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-07T10:35:16.203+05:30  INFO 17464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-02-07T10:35:16.380+05:30  INFO 17464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 171 ms. Found 1 MongoDB repository interfaces.
+2023-02-07T10:35:16.687+05:30  INFO 17464 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ca0d3827-b5e2-3420-9f8d-666be44c3904
+2023-02-07T10:35:17.365+05:30  INFO 17464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8092 (http)
+2023-02-07T10:35:17.377+05:30  INFO 17464 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-07T10:35:17.378+05:30  INFO 17464 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-07T10:35:17.463+05:30  INFO 17464 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-07T10:35:17.464+05:30  INFO 17464 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2091 ms
+2023-02-07T10:35:17.702+05:30  INFO 17464 --- [restartedMain] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.8.2"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Amazon.com Inc./17.0.4.1+9-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=majority, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='Saathvik', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@681fa1f3]}, clusterSettings={hosts=[127.0.0.1:27017], srvHost=cluster0.icbwgww.mongodb.net, srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='atlas-504cpv-shard-0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=true, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-02-07T10:35:17.749+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-srv-cluster0.icbwgww.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017 to client view of cluster
+2023-02-07T10:35:17.776+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-srv-cluster0.icbwgww.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017 to client view of cluster
+2023-02-07T10:35:17.778+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-srv-cluster0.icbwgww.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017 to client view of cluster
+2023-02-07T10:35:18.094+05:30  INFO 17464 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-07T10:35:18.278+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=268799300, setName='atlas-504cpv-shard-0', canonicalAddress=ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017, hosts=[ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017], passives=[], arbiters=[], primary='ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=4, topologyVersion=TopologyVersion{processId=63e0e59f7659ffec3bff6629, counter=3}, lastWriteDate=Tue Feb 07 10:35:18 IST 2023, lastUpdateTimeNanos=332831403571100}
+2023-02-07T10:35:18.279+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=268755300, setName='atlas-504cpv-shard-0', canonicalAddress=ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, hosts=[ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017], passives=[], arbiters=[], primary='ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=4, topologyVersion=TopologyVersion{processId=63e0e345e6231e91795a87b5, counter=4}, lastWriteDate=Tue Feb 07 10:35:18 IST 2023, lastUpdateTimeNanos=332831403571200}
+2023-02-07T10:35:18.278+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=268746100, setName='atlas-504cpv-shard-0', canonicalAddress=ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, hosts=[ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017], passives=[], arbiters=[], primary='ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff00000000000000e7, setVersion=4, topologyVersion=TopologyVersion{processId=63e0e44f6bddb7f3a2223a4e, counter=6}, lastWriteDate=Tue Feb 07 10:35:18 IST 2023, lastUpdateTimeNanos=332831403571200}
+2023-02-07T10:35:18.286+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017 with max election id 7fffffff00000000000000e7 and max set version 4
+2023-02-07T10:35:18.899+05:30  INFO 17464 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-02-07T10:35:19.078+05:30  WARN 17464 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-07T10:35:19.109+05:30  INFO 17464 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-02-07T10:35:19.203+05:30  INFO 17464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-02-07T10:35:19.210+05:30  INFO 17464 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T10:35:19.238+05:30  INFO 17464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-02-07T10:35:19.238+05:30  INFO 17464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-02-07T10:35:19.238+05:30  INFO 17464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-02-07T10:35:19.238+05:30  INFO 17464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-02-07T10:35:19.238+05:30  INFO 17464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-02-07T10:35:19.238+05:30  INFO 17464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-02-07T10:35:19.238+05:30  INFO 17464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-02-07T10:35:19.632+05:30  INFO 17464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-02-07T10:35:19.637+05:30  INFO 17464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-02-07T10:35:19.642+05:30  INFO 17464 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-02-07T10:35:19.649+05:30  INFO 17464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1675746319648 with initial instances count: 1
+2023-02-07T10:35:19.652+05:30  INFO 17464 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application LIBRARY-MANAGEMENT-SERVICE with eureka with status UP
+2023-02-07T10:35:19.653+05:30  INFO 17464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1675746319653, current=UP, previous=STARTING]
+2023-02-07T10:35:19.655+05:30  INFO 17464 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LIBRARY-MANAGEMENT-SERVICE/inlen8520081760.corp.capgemini.com:Library-management-service:8092: registering service...
+2023-02-07T10:35:19.688+05:30  INFO 17464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8092 (http) with context path ''
+2023-02-07T10:35:19.690+05:30  INFO 17464 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8092
+2023-02-07T10:35:19.711+05:30  INFO 17464 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LIBRARY-MANAGEMENT-SERVICE/inlen8520081760.corp.capgemini.com:Library-management-service:8092 - registration status: 204
+2023-02-07T10:35:19.816+05:30  INFO 17464 --- [restartedMain] c.l.library.LibraryApplication           : Started LibraryApplication in 5.159 seconds (process running for 5.838)
+2023-02-07T10:37:07.142+05:30  INFO 17464 --- [http-nio-8092-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-07T10:37:07.145+05:30  INFO 17464 --- [http-nio-8092-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-07T10:37:07.154+05:30  INFO 17464 --- [http-nio-8092-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2023-02-07T10:37:07.289+05:30  INFO 17464 --- [http-nio-8092-exec-2] c.l.l.controller.LibraryController       : [addbook] info message added
+2023-02-07T10:40:19.248+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T10:45:19.262+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T10:50:19.268+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T10:55:19.284+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T11:00:19.298+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T11:05:19.302+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T11:10:20.681+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T11:53:11.280+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:699) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:372) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:226) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1460) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1064) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:113) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:138) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 5 common frames omitted
+
+2023-02-07T11:53:11.280+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:699) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:372) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:226) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1460) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1064) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:113) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:138) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 5 common frames omitted
+
+2023-02-07T11:53:11.297+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:699) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:372) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:226) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1460) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1064) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:113) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:138) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 5 common frames omitted
+
+2023-02-07T11:53:11.455+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=112086500, setName='atlas-504cpv-shard-0', canonicalAddress=ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, hosts=[ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017], passives=[], arbiters=[], primary='ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=4, topologyVersion=TopologyVersion{processId=63e0e345e6231e91795a87b5, counter=4}, lastWriteDate=Tue Feb 07 11:53:11 IST 2023, lastUpdateTimeNanos=337504585434600}
+2023-02-07T11:53:11.455+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=112409100, setName='atlas-504cpv-shard-0', canonicalAddress=ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, hosts=[ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017], passives=[], arbiters=[], primary='ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff00000000000000e7, setVersion=4, topologyVersion=TopologyVersion{processId=63e0e44f6bddb7f3a2223a4e, counter=6}, lastWriteDate=Tue Feb 07 11:53:11 IST 2023, lastUpdateTimeNanos=337504585434600}
+2023-02-07T11:53:11.456+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017 with max election id 7fffffff00000000000000e7 and max set version 4
+2023-02-07T11:53:11.545+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=104756300, setName='atlas-504cpv-shard-0', canonicalAddress=ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017, hosts=[ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017], passives=[], arbiters=[], primary='ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=4, topologyVersion=TopologyVersion{processId=63e0e59f7659ffec3bff6629, counter=3}, lastWriteDate=Tue Feb 07 11:53:11 IST 2023, lastUpdateTimeNanos=337504675276300}
+2023-02-07T11:55:43.686+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T12:00:43.683+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T12:05:43.677+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T12:10:43.681+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T12:15:43.696+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T12:20:43.705+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T12:25:43.711+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T12:30:43.720+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T12:35:43.726+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T12:40:37.600+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:699) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:372) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:226) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1460) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1064) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:113) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:138) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 5 common frames omitted
+
+2023-02-07T12:40:37.599+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:699) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:372) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:226) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1460) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1064) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:113) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:138) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 5 common frames omitted
+
+2023-02-07T12:40:37.599+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:699) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:372) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:226) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1460) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1064) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:113) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:138) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 5 common frames omitted
+
+2023-02-07T12:40:37.622+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketException: No such host is known (ac-mfsdtod-shard-00-00.icbwgww.mongodb.net)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:217) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:78) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:68) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:183) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.UnknownHostException: No such host is known (ac-mfsdtod-shard-00-00.icbwgww.mongodb.net)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1529) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1519) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1377) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1305) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:209) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 6 common frames omitted
+
+2023-02-07T12:40:37.621+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketException: No such host is known (ac-mfsdtod-shard-00-01.icbwgww.mongodb.net)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:217) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:78) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:68) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:183) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.UnknownHostException: No such host is known (ac-mfsdtod-shard-00-01.icbwgww.mongodb.net)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1529) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1519) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1377) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1305) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:209) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 6 common frames omitted
+
+2023-02-07T12:40:37.650+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketException: No such host is known (ac-mfsdtod-shard-00-02.icbwgww.mongodb.net)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:217) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:78) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:68) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:183) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.UnknownHostException: No such host is known (ac-mfsdtod-shard-00-02.icbwgww.mongodb.net)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1529) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1519) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1377) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1305) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:209) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 6 common frames omitted
+
+2023-02-07T12:40:43.732+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T12:40:47.748+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=92642100, setName='atlas-504cpv-shard-0', canonicalAddress=ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, hosts=[ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017], passives=[], arbiters=[], primary='ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=4, topologyVersion=TopologyVersion{processId=63e0e345e6231e91795a87b5, counter=4}, lastWriteDate=Tue Feb 07 12:40:47 IST 2023, lastUpdateTimeNanos=340360904620400}
+2023-02-07T12:40:47.775+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=90793200, setName='atlas-504cpv-shard-0', canonicalAddress=ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017, hosts=[ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017], passives=[], arbiters=[], primary='ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=4, topologyVersion=TopologyVersion{processId=63e0e59f7659ffec3bff6629, counter=3}, lastWriteDate=Tue Feb 07 12:40:47 IST 2023, lastUpdateTimeNanos=340360931967700}
+2023-02-07T12:40:47.913+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=87777500, setName='atlas-504cpv-shard-0', canonicalAddress=ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, hosts=[ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017], passives=[], arbiters=[], primary='ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff00000000000000e7, setVersion=4, topologyVersion=TopologyVersion{processId=63e0e44f6bddb7f3a2223a4e, counter=6}, lastWriteDate=Tue Feb 07 12:40:47 IST 2023, lastUpdateTimeNanos=340361070058300}
+2023-02-07T12:40:47.913+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017 with max election id 7fffffff00000000000000e7 and max set version 4
+2023-02-07T12:45:43.736+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T12:50:43.746+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T12:55:43.747+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T13:00:43.750+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T14:38:09.196+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:705) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:372) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:226) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketException: Socket is closed
+	at java.base/java.net.Socket.setSoTimeout(Socket.java:1218) ~[na:na]
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.setSoTimeout(BaseSSLSocketImpl.java:638) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.setSoTimeout(SSLSocketImpl.java:74) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:140) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 5 common frames omitted
+
+2023-02-07T14:38:09.196+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:705) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:372) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:226) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketException: Socket is closed
+	at java.base/java.net.Socket.setSoTimeout(Socket.java:1218) ~[na:na]
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.setSoTimeout(BaseSSLSocketImpl.java:638) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.setSoTimeout(SSLSocketImpl.java:74) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:140) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 5 common frames omitted
+
+2023-02-07T14:38:09.196+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:705) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:372) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:226) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketException: Socket is closed
+	at java.base/java.net.Socket.setSoTimeout(Socket.java:1218) ~[na:na]
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.setSoTimeout(BaseSSLSocketImpl.java:638) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.setSoTimeout(SSLSocketImpl.java:74) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:140) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 5 common frames omitted
+
+2023-02-07T14:38:09.201+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketException: No such host is known (ac-mfsdtod-shard-00-01.icbwgww.mongodb.net)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:217) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:78) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:68) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:183) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.UnknownHostException: No such host is known (ac-mfsdtod-shard-00-01.icbwgww.mongodb.net)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1529) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1519) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1377) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1305) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:209) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 6 common frames omitted
+
+2023-02-07T14:38:09.201+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketException: No such host is known (ac-mfsdtod-shard-00-00.icbwgww.mongodb.net)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:217) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:78) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:68) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:183) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.UnknownHostException: No such host is known (ac-mfsdtod-shard-00-00.icbwgww.mongodb.net)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1529) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1519) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1377) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1305) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:209) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 6 common frames omitted
+
+2023-02-07T14:38:09.201+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketException: No such host is known (ac-mfsdtod-shard-00-02.icbwgww.mongodb.net)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:217) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:78) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:68) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:183) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.UnknownHostException: No such host is known (ac-mfsdtod-shard-00-02.icbwgww.mongodb.net)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1529) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1519) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1377) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1305) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:209) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 6 common frames omitted
+
+2023-02-07T14:38:29.263+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:73) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:183) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[na:na]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:107) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:82) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:68) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 4 common frames omitted
+
+2023-02-07T14:38:29.293+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:73) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:183) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[na:na]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:107) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:82) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:68) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 4 common frames omitted
+
+2023-02-07T14:38:29.308+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:73) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:183) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:198) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[na:na]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:107) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:82) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:68) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 4 common frames omitted
+
+2023-02-07T14:38:38.836+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T14:38:51.322+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=52883200, setName='atlas-504cpv-shard-0', canonicalAddress=ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, hosts=[ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017], passives=[], arbiters=[], primary='ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff00000000000000e7, setVersion=4, topologyVersion=TopologyVersion{processId=63e0e44f6bddb7f3a2223a4e, counter=6}, lastWriteDate=Tue Feb 07 14:38:51 IST 2023, lastUpdateTimeNanos=347444486704800}
+2023-02-07T14:38:51.323+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017 with max election id 7fffffff00000000000000e7 and max set version 4
+2023-02-07T14:38:51.342+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=58068700, setName='atlas-504cpv-shard-0', canonicalAddress=ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017, hosts=[ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017], passives=[], arbiters=[], primary='ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=4, topologyVersion=TopologyVersion{processId=63e0e59f7659ffec3bff6629, counter=3}, lastWriteDate=Tue Feb 07 14:38:51 IST 2023, lastUpdateTimeNanos=347444506412900}
+2023-02-07T14:38:51.529+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=67385800, setName='atlas-504cpv-shard-0', canonicalAddress=ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, hosts=[ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017], passives=[], arbiters=[], primary='ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=4, topologyVersion=TopologyVersion{processId=63e0e345e6231e91795a87b5, counter=4}, lastWriteDate=Tue Feb 07 14:38:51 IST 2023, lastUpdateTimeNanos=347444692762300}
+2023-02-07T14:43:38.785+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T14:48:38.786+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T14:53:43.444+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T14:58:43.453+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T15:03:43.469+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T15:08:43.482+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T15:13:43.480+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T15:18:43.482+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T15:23:43.488+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T15:28:43.490+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T15:33:43.497+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T15:38:43.510+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T15:43:43.511+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T15:48:43.516+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T15:53:43.526+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T15:58:43.533+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T16:03:43.532+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T16:08:43.540+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T16:13:43.546+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T16:18:43.551+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T16:23:43.555+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T16:28:43.569+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T16:33:43.578+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T17:14:36.663+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:699) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:372) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:226) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1460) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1064) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:113) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:138) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 5 common frames omitted
+
+2023-02-07T17:14:36.662+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:699) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:372) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:226) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1460) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1064) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:113) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:138) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 5 common frames omitted
+
+2023-02-07T17:14:36.662+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:699) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:372) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:226) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1460) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1064) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:113) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:138) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 5 common frames omitted
+
+2023-02-07T17:14:36.916+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=113607100, setName='atlas-504cpv-shard-0', canonicalAddress=ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017, hosts=[ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017], passives=[], arbiters=[], primary='ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=4, topologyVersion=TopologyVersion{processId=63e0e59f7659ffec3bff6629, counter=3}, lastWriteDate=Tue Feb 07 17:14:36 IST 2023, lastUpdateTimeNanos=356790168602500}
+2023-02-07T17:14:36.974+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=110626100, setName='atlas-504cpv-shard-0', canonicalAddress=ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, hosts=[ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017], passives=[], arbiters=[], primary='ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff00000000000000e7, setVersion=4, topologyVersion=TopologyVersion{processId=63e0e44f6bddb7f3a2223a4e, counter=6}, lastWriteDate=Tue Feb 07 17:14:36 IST 2023, lastUpdateTimeNanos=356790227335500}
+2023-02-07T17:14:36.975+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017 with max election id 7fffffff00000000000000e7 and max set version 4
+2023-02-07T17:14:37.011+05:30  INFO 17464 --- [cluster-ClusterId{value='63e1dc0d8059db709061bea6', description='null'}-ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=95748500, setName='atlas-504cpv-shard-0', canonicalAddress=ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, hosts=[ac-mfsdtod-shard-00-00.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017, ac-mfsdtod-shard-00-02.icbwgww.mongodb.net:27017], passives=[], arbiters=[], primary='ac-mfsdtod-shard-00-01.icbwgww.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=4, topologyVersion=TopologyVersion{processId=63e0e345e6231e91795a87b5, counter=4}, lastWriteDate=Tue Feb 07 17:14:36 IST 2023, lastUpdateTimeNanos=356790264269600}
+2023-02-07T17:16:46.942+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T17:21:46.954+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T17:26:46.964+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T17:31:46.972+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T17:36:46.984+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-07T17:41:47.001+05:30  INFO 17464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
